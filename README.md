@@ -6,7 +6,7 @@ This bot will connect to a cryptocurrency exchange, fetch market data, and execu
 ### 1.	Configuration:
 api_key and api_secret: Your API credentials from the exchange.
 symbol: The trading pair (e.g., BTC/USDT). timeframe: The timeframe for fetching OHLCV data (e.g., 1 minute).
-short_window and long_window: The periods for the short and long moving averages.
+short_window and long_window: The periods for the short and long moving averages. Note: - USDT is the symbol for Tether, a cryptocurrency that is pegged to the U.S. dollar. This means USDT is a stablecoin, fluctuating in value with the U.S. dollar
 ### 2.	Initialize Exchange:
 The script initializes the connection to the Binance exchange using the ccxt library with the provided API credentials.
 ### 3.	Fetch OHLCV Data:
