@@ -23,4 +23,5 @@ If a sell signal is detected, it sells all available BTC.
 # 7.	Main Loop:
   The script runs an infinite loop where it fetches the latest OHLCV data, applies the trading strategy, and executes trades based on the generated signals.
   The script waits for 1 minute (time.sleep(60)) before fetching new data and repeating the process.
-Note: This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
+# Note:
+This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
