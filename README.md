@@ -1,3 +1,7 @@
+# A Trading BOT
+Here is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
+This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
+
 # Explanation of the Script
 # 1.	Configuration:
 api_key and api_secret: Your API credentials from the exchange.
