@@ -30,3 +30,16 @@ This is a basic example and should not be used for live trading without thorough
 The unit tests uses the unittest library in Python. 
 The ccxt library methods are mocked to simulate the behavior of the exchange, ensuring our tests are not dependent on actual API calls. 
 Install the necessary libraries: - pip install pandas numpy ccxt unittest mock
+Explanation of the Unit Test Script
+
+1.	Importing Libraries:
+unittest for writing the tests.
+patch and MagicMock from unittest.mock for mocking external dependencies. pandas and numpy for data manipulation and testing.
+Functions from the trading bot script (fetch_ohlcv, moving_average, trading_strategy, execute_trade).
+2.	Test Class:
+TestTradingBot is the main test class inheriting from unittest.TestCase.
+3.	Test Methods:
+  test_fetch_ohlcv: Mocks the fetch_ohlcv method from ccxt to return predefined OHLCV data and checks the length and column names of the returned DataFrame.
+  test_moving_average: Tests the moving_average function to ensure it calculates the moving average correctly.
+  test_trading_strategy: Tests the trading_strategy function to ensure it generates the correct buy/sell signals.
+  test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
