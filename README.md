@@ -1,7 +1,16 @@
 # Trading BOT # 
-### Source file: Bot_tradingSimple.py 
+
+## About the Trading BOT
+## Unit Test  
+## Functional Test
+## Playwright for Automated Testing of a Trading Bot
+
+
+## About the Trading BOT
 This is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
 This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
+### Source file: Bot_tradingSimple.py 
+
 ### Explanation of the Trading BOT
 #### 1.	Configuration:
 api_key and api_secret: Your API credentials from the exchange.
@@ -45,9 +54,9 @@ TestTradingBot is the main test class inheriting from unittest.TestCase.
     - test_moving_average: Tests the moving_average function to ensure it calculates the moving average correctly.
     - test_trading_strategy: Tests the trading_strategy function to ensure it generates the correct buy/sell signals.
     - test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
-### Running the Tests
+### Running the Unit Test
 python Bot_tradingSimpleUnitTest.py
-## Functional Test Script
+## Functional Test
 ### Source file: Bot_tradingFunctionalTestCases.xlsx
 To verify the overall functionality of the trading bot, ensuring it can connect to the exchange, fetch market data, apply the trading strategy, and execute trades correctly.
 ## Functional Test Script Implementation
