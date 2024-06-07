@@ -27,6 +27,8 @@ If a sell signal is detected, it sells all available BTC.
 This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
 
 ## Unit Test
+### Source file: Bot_tradingSimpleUnitTest.py
+## Explanation of the Unit Test Script
 The unit tests uses the unittest library in Python. 
 The ccxt library methods are mocked to simulate the behavior of the exchange, ensuring our tests are not dependent on actual API calls. 
 Install the necessary libraries: - pip install pandas numpy ccxt unittest mock
@@ -43,3 +45,5 @@ TestTradingBot is the main test class inheriting from unittest.TestCase.
     - test_moving_average: Tests the moving_average function to ensure it calculates the moving average correctly.
     - test_trading_strategy: Tests the trading_strategy function to ensure it generates the correct buy/sell signals.
     - test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
+## Running the Tests
+python Bot_tradingSimpleUnitTest.py
