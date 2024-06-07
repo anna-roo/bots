@@ -39,7 +39,7 @@ Functions from the trading bot script (fetch_ohlcv, moving_average, trading_stra
 2.	Test Class:
 TestTradingBot is the main test class inheriting from unittest.TestCase.
 3.	Test Methods:
-- test_fetch_ohlcv: Mocks the fetch_ohlcv method from ccxt to return predefined OHLCV data and checks the length and column names of the returned DataFrame.
-- test_moving_average: Tests the moving_average function to ensure it calculates the moving average correctly.
-- test_trading_strategy: Tests the trading_strategy function to ensure it generates the correct buy/sell signals.
-- test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
+  - test_fetch_ohlcv: Mocks the fetch_ohlcv method from ccxt to return predefined OHLCV data and checks the length and column names of the returned DataFrame.
+  - test_moving_average: Tests the moving_average function to ensure it calculates the moving average correctly.
+  - test_trading_strategy: Tests the trading_strategy function to ensure it generates the correct buy/sell signals.
+  - test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
