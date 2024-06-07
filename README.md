@@ -25,3 +25,8 @@ If a sell signal is detected, it sells all available BTC.
   The script waits for 1 minute (time.sleep(60)) before fetching new data and repeating the process.
 ### Note:
 This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
+
+## Unit Test
+The unit tests uses the unittest library in Python. 
+The ccxt library methods are mocked to simulate the behavior of the exchange, ensuring our tests are not dependent on actual API calls. 
+Install the necessary libraries: - pip install pandas numpy ccxt unittest mock
