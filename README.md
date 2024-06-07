@@ -33,9 +33,9 @@ Install the necessary libraries: - pip install pandas numpy ccxt unittest mock
 Explanation of the Unit Test Script
 
 1.	Importing Libraries:
-unittest for writing the tests.
-patch and MagicMock from unittest.mock for mocking external dependencies. pandas and numpy for data manipulation and testing.
-Functions from the trading bot script (fetch_ohlcv, moving_average, trading_strategy, execute_trade).
+    - unittest for writing the tests.
+    - patch and MagicMock from unittest.mock for mocking external dependencies. pandas and numpy for data manipulation and testing.
+    - functions from the trading bot script (fetch_ohlcv, moving_average, trading_strategy, execute_trade).
 2.	Test Class:
 TestTradingBot is the main test class inheriting from unittest.TestCase.
 3.	Test Methods:
