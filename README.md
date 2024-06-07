@@ -3,7 +3,7 @@
 This is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
 This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
 ## Explanation of the Trading BOT
-### 1.	Configuration:
+#### 1.	Configuration:
 api_key and api_secret: Your API credentials from the exchange.
 symbol: The trading pair (e.g., BTC/USDT). timeframe: The timeframe for fetching OHLCV data (e.g., 1 minute).
 short_window and long_window: The periods for the short and long moving averages. Note: - USDT is the symbol for Tether, a cryptocurrency that is pegged to the U.S. dollar. This means USDT is a stablecoin, fluctuating in value with the U.S. dollar
