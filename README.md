@@ -50,3 +50,27 @@ python Bot_tradingSimpleUnitTest.py
 ## Functional Test Script
 ### Source file: Bot_tradingFunctionalTestCases.xlsx
 To verify the overall functionality of the trading bot, ensuring it can connect to the exchange, fetch market data, apply the trading strategy, and execute trades correctly.
+## Functional Test Script Implementation
+### Source file: Bot_tradingSimpleFunctionalTest.py
+### Explanation of the Functional Test Script
+1.	Configuration:
+The test configures the trading bot with mock API credentials and sets the parameters.
+2.	Initialization:
+Mocks the initialization of the exchange.
+3.	Fetch OHLCV Data:
+The test mocks the fetch_ohlcv method to return predefined OHLCV data.
+4.	Apply Trading Strategy:
+Applies the moving average crossover strategy to the fetched data.
+5.	Check Signals:
+Verifies that the generated signals are correct.
+6.	Execute Trade:
+Mocks the execution of a trade based on the generated signal and verifies the order was placed correctly.
+7.	Fetch Balance After Trade:
+Verifies that the balance reflects the executed trade.
+8.	Repeat for Sell Signal:
+Mocks the execution of a sell trade and verifies the order was placed correctly.
+9.	Fetch Balance After Sell Trade:
+Verifies that the balance reflects the executed trade.
+10.	Verify Continuous Running:
+Mocks the time.sleep method to avoid actual delays and verifies the bot can run continuously, fetching new data, applying the strategy, and executing trades in a loop
+
