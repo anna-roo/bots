@@ -1,4 +1,4 @@
-# Trading BOT ### Source file: Bot_tradingSimple.py 
+# Trading BOT \ ### Source file: Bot_tradingSimple.py 
 This is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
 This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
 ## Explanation of the Trading BOT
