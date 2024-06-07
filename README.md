@@ -1,4 +1,4 @@
-# Trading BOT / ### Source file: Bot_tradingSimple.py 
+#Trading BOT# ### Source file: Bot_tradingSimple.py 
 This is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
 This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
 ## Explanation of the Trading BOT
@@ -25,7 +25,7 @@ If a sell signal is detected, it sells all available BTC.
 ### Note:
 This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
 
-## Unit Test ### Source file: Bot_tradingSimpleUnitTest.py
+##Unit Test## ### Source file: Bot_tradingSimpleUnitTest.py
 ## Explanation of the Unit Test
 The unit tests uses the unittest library in Python. 
 The ccxt library methods are mocked to simulate the behavior of the exchange, ensuring our tests are not dependent on actual API calls. 
