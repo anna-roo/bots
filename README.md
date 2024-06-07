@@ -1,10 +1,9 @@
 # Trading BOT # 
 
-## About the Trading BOT
-
+## [About the Trading BOT](../.README.MD)
 ## [Unit Test](../.README.MD)
-## Functional Test
-## Playwright for Automated Testing of a Trading Bot
+## [Functional Test](../.README.MD)
+## [Playwright for Automated Testing of a Trading Bot](../.README.MD)
 
 
 ## About the Trading BOT
