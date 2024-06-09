@@ -1,7 +1,7 @@
 # Trading BOT # 
 
 ## [About the Trading BOT](../.README.MD)
-## [Unit Test](../.README.MD)
+## [Unit Test](../.Unit Test)
 ## [Functional Test](../.README.MD)
 ## [Playwright for Automated Testing of a Trading Bot](../.README.MD)
 
